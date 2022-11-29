@@ -24,7 +24,7 @@ useEffect(() => {
     updateTasks()
   }
 
-  function deleteTask(id:any) {
+  const deleteTask = (id:any)=> {
     TaskDataServiceDelete(id);
     updateTasks()
   }
